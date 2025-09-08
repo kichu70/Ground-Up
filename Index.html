@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ground_Up</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="script" href="./script/main.js"> -->
+     <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="nav">
+                <img src="./images/logo.png" alt="" />
+                <ul class="menu">
+                    <a href="./Index.html">
+                        <li>Home</li>
+                    </a>
+                    <li class="abt-pop">About
+                        <div id="aboutPopup" class="abt-pop2">
+                            <div class="ab">
+                                <a href="./pages/AboutUs.html"><button>About US</button></a>
+                                <a href="./pages/AboutRobbie.html"><button>About Robbie</button></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="lll">
+                        <a id= "tr" href="./pages/Trainings.html">
+                            Trainings 
+                            <img src="./images/arrowdown.png" alt="">
+                        </a>
+                        <div class="iii">
+                            <a href="#container-2">
+                                <p><span>Module 2-</span> Bridging the Triad of Therapist, Client and Medicine</p>
+                                <p><span>Module 2-</span> Bridging the Triad of Therapist, Client and Medicine</p>
+                                <p><span>Module 2-</span> Bridging the Triad of Therapist, Client and Medicine</p>
+                            </a>
+
+                        </div>
+                    </li>
+                    <a href="./pages/ContactUs.html">
+                        <li>Contact Us</li>
+                    </a>
+                </ul>
+                <button onclick="toggleF()" class="hamburger">☰</button>
+                <ul id="menu2">
+                   <a href="./Index.html"><li>Home</li></a>
+                    <li class="abt-pop">About
+                        <div id="aboutPopup" class="abt-pop2">
+                            <div class="ab">
+                                <a href="./pages/AboutUs.html"><button>About US</button></a>
+                                <a href="./pages/AboutRobbie.html"><button>About Robbie</button></a>
+                            </div>
+                        </div>
+                    </li>
+                    <a href="./pages/Trainings.html"><li>Trainings</li></a>
+                    <a href="./pages/ContactUs.html"><li>ContactUs</li></a>
+                </ul>
+
+
+
+
+
+            </div>
+            
+        </div>
+    </header>
+
+    <!-- content1 -->
+      <section id="cnt-one">
+        <div class="container">
+            <div class="content">
+                <div class="empty"></div>
+                <div class="main">
+                    <h1>Ground up <span>Psychedelic Institute.</span></h1>
+                    <p>Ground up Psychedelic Institute supports Mental Health practitioners to reorient
+                        their
+                        Psychotherapeutic approach to
+                        support their clients Bottom up (felt lead) processing, which is activated whilst participating
+                        in
+                        Psychedelic Medicine
+                        experiences. <br><br> Psychedelic Medicine experiences are emergent, intra-relational, felt and
+                        here-and-now
+                        encounters. We help
+                        therapists link emergent, intra-relational, felt lead, and here and now approaches to
+                        Psychedelic
+                        Assisted
+                        Psychotherapy. </p>
+                    <button>Read More</button> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- content2 -->
+    <div class="second-content">
+        <div class="sec-grid">
+            <img src="./images/treelogo.png" alt="" />
+            <h3>Emerg</h3>
+            <p>Emergent- arising within the broader whole of existence ;
+                An interplay from which ones experience organically emerges . This is quite opposite to a reduction into
+            </p>
+        </div>
+        <div class="sec-grid">
+            <img src="./images/brainlogo.png" alt="" />
+            <h3>Intra-relational</h3>
+            <p>Intra-relational- a process of relating
+                dynamically and internally with alive aspects of ourselves.</p>
+        </div>
+        <div class="sec-grid">
+            <img src="./images/lovelogo.png" alt="" />
+            <h3>Felt</h3>
+            <p>Felt – Visceral and somatic information becomes infinitely more accessible and interpretable.
+                The experience is every aspect is sensation lead.</p>
+        </div>
+        <div class="sec-grid">
+            <img src="./images/yogalogo.png" alt="" />
+            <h3>Here and now</h3>
+            <p>Here and now - present. A deeper capacity to be in and with what is happening now, primarily;
+                again via sensation lead information</p>
+        </div>
+    </div>
+    <!-- section-2 -->
+    <div id="container-2" class="container-2">
+        <div class="cnt2-heading">
+            <h2>Trainings</h2>
+            <p>This training is for Mental Health practitioners
+                interested in the field of PAP and well as practitioners who are already
+                working in the field looking to develop their skills and orientation in PAP.</p>
+        </div>
+
+
+
+
+        <!-- model -->
+        <div class="cnt2-grid">
+            <div class="pages">
+                <img src="./images/cnt2-firstimg.png" alt="">
+                <div class="inner-page">
+                    <button onclick="openForm()" id="btn-one">Module 1</button>
+                    <div id="lop" class="popup">
+                        <div>
+                            <p><span>Module 1-</span> Bridging the Triad of Therapist, Client and Medicine</p>
+                        </div>
+                    </div>
+                    <h3>Bridging the Triad of Therapist, Client and Medicine</h3>
+                    <p>Supports therapist to guide clients deeply into their felt experience,
+                        both in Psychotherapy and Non ordinary experiences, as the pathway to deeper,
+                        more fundamental insights and subsequent change.</p>
+                    <button class="btn-two">Read more <img src="./images/circlearrow.png" alt=""></button>
+                </div>
+            </div>
+            <div class="pages">
+                <img src="./images/cnt2-midleimg.png" alt="">
+
+                <div class="inner-page">
+                    <button id="btn-one" onclick="openForm2()">Module 2</button>
+                    <div id="lop2" class="popup">
+                        <div>
+                            <p><span>Module 2-</span> Bridging the Triad of Therapist, Client and Medicine</p>
+                        </div>
+                    </div>
+                    <h3>Bridging the Triad of Therapist, Client and Medicine</h3>
+                    <p>Supports therapist to guide clients deeply into their felt experience,
+                        both in Psychotherapy and Non ordinary experiences, as the pathway to deeper,
+                        more fundamental insights and subsequent change.</p>
+                    <button class="btn-two">Read more <img src="./images/circlearrow.png" alt=""></button>
+
+                </div>
+            </div>
+            <div class="pages">
+                <img src="./images/cnt2-lastimg.png" alt="">
+                <div class="inner-page">
+                    <button id="btn-one" onclick="openForm3()">Module 3</button>
+                    <div id="lop3" class="popup">
+                        <div>
+                            <p><span>Module 3-</span> Bridging the Triad of Therapist, Client and Medicine</p>
+                        </div>
+                    </div>
+                    <h3>Bridging the Triad of Therapist, Client and Medicine</h3>
+                    <p>Supports therapist to guide clients deeply into their felt experience,
+                        both in Psychotherapy and Non ordinary experiences, as the pathway to deeper,
+                        more fundamental insights and subsequent change.</p>
+                    <button class="btn-two">Read more <img src="./images/circlearrow.png" alt=""></button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-3" id="container-3">
+         <div class="container">
+            <div class="about-img">
+                <img src="./images/girl.png" alt="About">
+            </div>
+            <div class="about-para">
+                <h2>About Robbie</h2>
+                <p>Robbie has been in clinical private practice for over 18 years and has explored his own plant
+                    medicine path for over 14
+                    years, having worked therapeutically and extensively with 16 Psychedelic and Plant medicines
+                    himself; He has also worked
+                    with over 300 clients clinically to prepare for and integrate their own Psychedelic Medicine and
+                    plant medicine
+                    experiences. Robbie's interest is in bridging the gap between contemporary PAP approaches, which are
+                    strongly
+                    academically (top down) influenced, with the learnings of therapists and medicine people who have
+                    learnt directly from
+                    and with Psychedelic medicines themselves.</p>
+                <a href="./html/aboutrobbie.html">Read More</a>
+            </div>
+        </div>
+
+
+
+    <!-- section4 -->
+    <div class="container-4">
+        <h1>Contact Us</h1>
+        <div class="fourth-cnt">
+            <input type="text" id="firstname" placeholder="First name" class="input-text">
+            <input type="text" id="surname" placeholder="surname" class="input-text">
+            <input type="email" id="e-mail" placeholder="Email" class="input-text">
+            <input type="number" id="ph" placeholder="phone" class="input-text">
+            <textarea id="msg" placeholder="Message" rows="20"></textarea>
+        </div><button>
+            <input type="submit"> <img src="./images/arr2.png" alt=""></button>
+    </div>
+    </div>
+        <!-- footer -->
+    <div class="footer">
+        <div class="container-5">
+            <img src="./images/ftrlogo.png" alt="">
+            <div class="aboutus">
+                <button>Home</button>
+                <button>AboutUS</button>
+                <button>Trainings </button>
+                <button>Contact us</button>
+            </div>
+            <div class="media">
+                <button><img src="./images/facebook.png" alt=""></button>
+                <button><img src="./images/twitter.png" alt=""></button>
+                <button><img src="./images/insta.png" alt=""></button>
+                <button><img src="./images/youtube.png" alt=""></button>
+            </div>
+            <hr>
+            <h3>©2023 Ground up Psychedelic Institute. All Rights Reserved.</h3>
+
+        </div>
+
+
+</body>
+<script src="./script/main.js"></script>
+
+</html>

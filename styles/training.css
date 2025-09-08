@@ -1,0 +1,65 @@
+.container{
+    max-width: 1200px;
+}.cntOne{
+    padding-top: 71px;
+    width: 100%;    
+}
+.cntOne img{
+    display: block;     
+    width: 100%;
+}
+.cntTwo h1{
+    font-size: 36px;
+    font-family:Gilroy-slimbold ;
+    font-weight: 400;
+    color: #000000 ;
+}
+.cntTwo p{
+    font-family: Gilroy-Medium;
+    font-size: 15px;
+    font-weight: 400;
+    color: #777777;
+}
+#tr :hover .popup{
+    display: block;
+}
+#tr :hover {
+    color: red;
+}
+.popup{
+    display: none;
+}
+.cntThree{
+    width: 95%;
+    margin: 77px auto;
+}
+.cntThree h1{
+    font-size: 22px;
+    font-family: Gilroy-Slimbold;
+    font-weight: 400;
+    color: #444444;
+}
+.cntThree h3{
+    color: #555555;
+    font-size: 18px;
+    font-family: Gilroy-Medium;
+    font-weight: 400;
+}
+.cntThree p{
+    color: #777777;
+    font-size: 15px;
+    font-family: Gilroy-Medium;
+    font-weight: 400;
+}
+.cntFour{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+    padding :226px 0 145px 0 ;
+}
+@media  (max-width:556px) {
+    .cntFour{
+        padding-top:calc(100%/2);
+        grid-template-columns: repeat(1,1fr);
+    }
+}

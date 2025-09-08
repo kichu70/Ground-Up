@@ -1,0 +1,133 @@
+.cnt-one-img {
+  width: 100%;
+ 
+   z-index: 1;
+  position: relative;
+}
+.cnt-one-img img {
+  width: 100%;
+  height: 335px;
+}
+.cnt-one-h {
+  /* background-color: aqua; */
+  position: absolute;
+z-index: 1;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  font-size: 35px;
+  color: #05A93D;
+  font-family: gilroy;
+  font-weight: 400;
+  text-align: center;
+  
+}
+.container{
+    padding-bottom: 89px;
+}
+.container p{
+    color: #777777;
+    font-family: gilroy-medium;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+
+}
+.container span{
+    font-family:gilroy-slimbold;
+    color: #444444;
+    font-weight: 400;
+}
+.container h6{
+    font-size: 28px;
+    padding: 0;
+    margin: 45px 0 22px 0;
+    color: #444444 ;
+}
+
+.cnt-1{
+    padding-top: 82px;
+}
+.second-content{
+    padding: 0;
+    margin: 39px 0 0 0;
+}
+
+
+
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .sec-grid h3 {
+    padding: 10px;
+  }
+  .sec-grid p {
+    padding-right: 0;
+    font-size: 12px;
+  }
+  .second-content{
+    grid-gap: 5px;
+  }
+  .second-content div {
+    padding: 15px;
+  }
+}
+@media  (max-width:990px) {
+.cnt-one-img img {
+  width: 100%;
+  height: 235px;
+}
+}
+
+@media only screen and (max-width: 767px) and (min-width: 601px) {
+    .second-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px;
+        padding: 30px 15px;
+    }
+    .sec-grid h3{
+              padding: 10px;
+    }
+    .sec-grid p{
+              padding-right: 0;
+        font-size: 12px;
+    }
+  
+  }
+  @media only screen and (max-width: 600px) and (min-width: 399px) {
+    .sec-grid  p {
+        padding-right: 0px;
+
+      }
+
+      .sec-grid h3{
+    padding-top: 23px;
+    padding-bottom: 13px;
+    font-size: 21px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+      }
+
+  }
+  @media only screen and (max-width: 400px) {
+    .second-content{
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+        padding: 30px 15px;
+    }
+    .second-content div {
+        padding: 15px;
+    }
+    .sec-grid h3{
+    font-family: Gilroy-slimbold;
+    padding-top: 23px;
+    padding-bottom: 13px;
+    font-size: 21px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    }
+    .sec-grid p{
+              padding-right: 0px;
+    }
+}   
