@@ -1,14 +1,14 @@
 @font-face {
   font-family: "Gilroy";
-  src: url("./fonts/Gilroy-Bold.ttf");
+  src: url("../fonts/Gilroy-Bold.ttf");
 }
 @font-face {
   font-family: "gilroy-medium";
-  src: url("./fonts/Gilroy-Medium.ttf");
+  src: url("../fonts/Gilroy-Medium.ttf");
 }
 @font-face {
   font-family: gilroy-slimbold;
-  src: url("./fonts/Gilroy-SemiBold.ttf");
+  src: url("../fonts/Gilroy-SemiBold.ttf");
 }
 a {
   text-decoration: none;
@@ -138,14 +138,14 @@ body {
   padding-bottom: 30px;
 }
 .bg_img {
-    background-image: url(./images/Rectangle\ 2.png);
+    background-image: url(../images/Rectangle\ 2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
 }
 
 #cnt-one{
-    background-image: url(./images/Rectangle\ 2.png);
+    background-image: url(../images/Rectangle\ 2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -192,7 +192,7 @@ body {
 }
 
 .content .main button{
-    background-image: url(./images/arr2.png);
+    background-image: url(../images/arr2.png);
     background-repeat: no-repeat;
     background-position: right 24px center;
     font-family: Gilroy-slimbold;
@@ -338,7 +338,7 @@ body {
 }
 
 #container-3 div a {
-    background-image: url(./images/arr2.png);
+    background-image: url(../images/arr2.png);
     background-repeat: no-repeat;
     background-position: right 24px center;
     font-family: Gilroy-slimbold;
